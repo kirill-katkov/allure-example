@@ -57,8 +57,8 @@ public class AuthTests {
         step("Разлогиниваемся");
     }
 
-
     @Test
+
     @AllureId("10727")
     @DisplayName("Авторизация через Facebook")
     @Tags({@Tag("blocker"), @Tag("web")})

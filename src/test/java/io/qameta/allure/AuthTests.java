@@ -40,6 +40,9 @@ public class AuthTests {
     @AllureId("10728")
     @DisplayName("Авторизация через GitHub")
     @Tags({@Tag("blocker"), @Tag("web")})
+    @Story("Авторизация через сторонние системы")
+    @Owner("admin")
+    @Feature("Авторизация")
     public void testGitHubAuth() {
         step("Открываем главную страницу");
         step("Нажимаем кнопку Авторизация");
@@ -62,6 +65,9 @@ public class AuthTests {
     @AllureId("10727")
     @DisplayName("Авторизация через Facebook")
     @Tags({@Tag("blocker"), @Tag("web")})
+    @Story("Авторизация через сторонние системы")
+    @Owner("admin")
+    @Feature("Авторизация")
     public void testFacebookAuth() {
         step("Открываем главную страницу");
         step("Нажимаем кнопку Авторизация");
@@ -83,6 +89,9 @@ public class AuthTests {
     @Test
     @DisplayName("Авторизация через Apple")
     @Tags({@Tag("blocker"), @Tag("web")})
+    @Story("Авторизация через сторонние системы")
+    @Owner("admin")
+    @Feature("Авторизация")
     public void testAppleAuth() {
         step("Открываем главную страницу");
         step("Нажимаем кнопку Авторизация");

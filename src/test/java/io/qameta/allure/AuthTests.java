@@ -9,6 +9,7 @@ import static io.qameta.allure.Allure.step;
 
 public class AuthTests {
 
+
     @Test
     @AllureId("10721")
     @DisplayName("Авторизация через Google")
